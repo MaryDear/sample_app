@@ -37,6 +37,7 @@
     <file path="/test.rb" changelist="d8edf82f-c227-4097-9c36-980bba84dc7d" time="1374084409783" ignored="false" />
     <file path="/users_helper.rb" changelist="d8edf82f-c227-4097-9c36-980bba84dc7d" time="1374086256883" ignored="false" />
     <file path="/_error_message.html.erb" changelist="d8edf82f-c227-4097-9c36-980bba84dc7d" time="1374175150367" ignored="false" />
+    <file path="/production.rb" changelist="d8edf82f-c227-4097-9c36-980bba84dc7d" time="1374177123773" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,11 +71,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="24" selection-start="415" selection-end="415" vertical-scroll-proportion="0.57894737">
+            <state line="14" column="24" selection-start="415" selection-end="415" vertical-scroll-proportion="-7.1923075">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="35" selection-start="2505" selection-end="2505" vertical-scroll-proportion="0.7077364">
+              <folding>
+                <element signature="e#166#2505#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/db/migrate/20130715133951_add_index_to_users_email.rb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
@@ -141,6 +152,7 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -970,11 +982,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="2" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="34" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0">
@@ -1059,8 +1066,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="24" selection-start="415" selection-end="415" vertical-scroll-proportion="0.57894737">
+        <state line="14" column="24" selection-start="415" selection-end="415" vertical-scroll-proportion="-7.1923075">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="35" selection-start="2505" selection-end="2505" vertical-scroll-proportion="0.7077364">
+          <folding>
+            <element signature="e#166#2505#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
